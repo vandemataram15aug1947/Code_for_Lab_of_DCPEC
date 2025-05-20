@@ -6,35 +6,39 @@ This repository contains embedded C source code and project configuration files 
 
 ## 📁 Project Structure
 
-├── .launches/ # CCS launch configuration
-├── .settings/ # Workspace-specific settings
-├── CPU1_FLASH/ # Build config for Flash
-├── CPU1_RAM/ # Build config for RAM
-├── device/ # Device support files (TMS320F28379D)
-├── targetConfigs/ # Target configuration XML files
-├── .ccsproject # CCS project descriptor
-├── .cproject # Eclipse project descriptor
-├── .project # Eclipse project file
-├── 2837xD_FLASH_lnk_cpu1.cmd # Linker command file for Flash
-├── 2837xD_RAM_lnk_cpu1.cmd # Linker command file for RAM
-├── F2837xD_CodeStartBranch.asm
-├── F2837xD_usDelay.asm
-├── F2837xD_GlobalVariableDefs.c
-├── F2837xD_DefaultISR.c
-├── F2837xD_PieCtrl.c
-├── F2837xD_PieVect.c
-├── F2837xD_SysCtrl.c
-├── F2837xD_CpuTimers.c
-├── F2837xD_Gpio.c
-├── F2837xD_Headers_nonBIOS_cpu1.cmd
-├── ADC.c # ADC initialization and ISR code
-├── SPWM.c # Sinusoidal PWM logic
-├── Genereate_Class_ePWM.c # ePWM generation for experiments
-├── LED_for_DCPEC.c # Basic LED test using GPIO
-├── LED_for_DCPEC_Timer_0.c # Timer-based LED toggling
-├── LED_for_DCPEC_Timer_2.c # Another Timer-based LED control
-├── LAB_Exp_a.c # Lab-specific experiment code
-├── Add.c, SUB.c, MUL.c # Basic arithmetic operation modules
+```
+├── .launches/                      # CCS launch configuration  
+├── .settings/                      # Workspace-specific settings  
+├── CPU1_FLASH/                     # Build config for Flash  
+├── CPU1_RAM/                       # Build config for RAM  
+├── device/                         # Device support files (TMS320F28379D)  
+├── targetConfigs/                  # Target configuration XML files  
+├── .ccsproject                     # CCS project descriptor  
+├── .cproject                       # Eclipse project descriptor  
+├── .project                        # Eclipse project file  
+├── 2837xD_FLASH_lnk_cpu1.cmd       # Linker command file for Flash  
+├── 2837xD_RAM_lnk_cpu1.cmd         # Linker command file for RAM  
+├── F2837xD_CodeStartBranch.asm     # Code start file  
+├── F2837xD_usDelay.asm             # Microsecond delay function  
+├── F2837xD_GlobalVariableDefs.c    # Global variable definitions  
+├── F2837xD_DefaultISR.c            # Default interrupt service routines  
+├── F2837xD_PieCtrl.c               # PIE control functions  
+├── F2837xD_PieVect.c               # PIE vector table setup  
+├── F2837xD_SysCtrl.c               # System control functions  
+├── F2837xD_CpuTimers.c             # CPU timer setup  
+├── F2837xD_Gpio.c                  # GPIO initialization and configuration  
+├── F2837xD_Headers_nonBIOS_cpu1.cmd# Header linker command file (non-BIOS)  
+├── ADC.c                           # ADC initialization and ISR code  
+├── SPWM.c                          # Sinusoidal PWM logic  
+├── Genereate_Class_ePWM.c          # ePWM generation for experiments  
+├── LED_for_DCPEC.c                 # Basic LED test using GPIO  
+├── LED_for_DCPEC_Timer_0.c         # Timer-based LED toggling (Timer 0)  
+├── LED_for_DCPEC_Timer_2.c         # Timer-based LED toggling (Timer 2)  
+├── LAB_Exp_a.c                     # Lab-specific experiment code  
+├── Add.c                           # Basic addition function  
+├── SUB.c                           # Basic subtraction function  
+├── MUL.c                           # Basic multiplication function  
+```
 
 
 ## 🔧 Requirements
