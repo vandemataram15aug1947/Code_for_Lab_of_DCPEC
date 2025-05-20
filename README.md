@@ -1,7 +1,5 @@
 # Code_for_Lab_of_DCPEC
 
-# Code_for_Lab_of_DCPEC
-
 This repository contains embedded C source code and project configuration files for various lab experiments conducted at **DCPEC (Department of Electrical Engineering)**. The code is designed for the **Texas Instruments TMS320F28379D (C2000 Delfino)** microcontroller, using **Code Composer Studio (CCS)** as the development environment.
 
 ## 📁 Project Structure
